@@ -1,0 +1,187 @@
+{
+  "ANSWER": "ANTWORT",
+  "BACK_BUTTON_TEXT": "zurrück",
+  "HOME_PLAY_GAME": "SPIELEN",
+  "HOME_SETTINGS": "EINSTELLUNGEN",
+  "DRAW": "GLEICHSTAND",
+  "CONTINUE": "WEITER",
+  "NAME_INPUT_PLACEHOLDER": "Teamnamen ändern (optional)",
+  "TEAM_1": "TEAM 1",
+  "TEAM_2": "TEAM 2",
+  "RIGHT": "RICHTIG",
+  "WRONG": "Falsch",
+  "HOME": "STARTSEITE",
+  "WINNER": "GEWINNER",
+  "CANCEL": "RÜCKGÄNGIG",
+  "SAVE": "SPEICHERN",
+  "ROUND": "Runde",
+  "BEATYA": "BeatYa!",
+  "GEN_SEL": "Αllgemeine Fragen",
+  "APP_COMPONENTS": {
+    "QUITHEAD": "Möchtest du die App schließen?",
+    "QUITSUB": "Dein Fortschritt wird verloren gehen",
+    "QUITBUT1": "ZURÜCK",
+    "QUITBUT2": "OK",
+    "USER_OFFLINE_HEAD": "Du bist offline",
+    "USER_OFFLINE": "Scheinbar bist du offline und hast die offline Daten noch nicht geladen. KLICKE HIER um sie herunterzuladen und komplett offline spielen zu können. ",
+    "OFFLINE_WHILE_PLAYING": "Verbindung zum Internet fehlgeschlagen. Die nötigen Daten können nicht geladen werden :("
+  },
+  "WIN_PAGE": {
+    "DRAW": "Gleichstand",
+    "ITS_DRAW": "Es ist ein <br> Gleichstand",
+    "REMATCH": "REVANCHE",
+    "WINS": "<br> hat gewonnen",
+    "ALERT_TITLE" : "Would you answer our questionnaire?",
+    "ALERT_SUBTITLE" : "Help beatYa! to grow by giving us your feedback.",
+    "BUTTON1" : "Definitely",
+    "BUTTON2" : "Remind me later",
+    "BUTTON3" : "No, i dont like you guys"
+  },
+  "TEAM2_PICK_NAME_PAGE": {
+    "WAIT": "Bitte warten..."
+  },
+  "QUESTION_FOR": "Frage an:",
+  "QUESTIONS_PAGE_MEMEDIA": {
+    "SHOW_ANSWER": "Zeig die Antwort",
+    "SHOW_MEDIA": "zurück",
+    "TITLE": "Memedia"
+  },
+  "CATEGORY_PAGE": {
+    "BTN_READY": "BEREIT",
+    "ROUND": "Runde",
+    "CORRECT": "richtig!",
+    "WRONG": "falsch ",
+    "ERROR": "Richtig...Falsch...Wen juckt´s?",
+    "GIVE_TO_1": "Ein Spieler von {{teamName}} bekommt das Gerät. Seine Aufgabe: {{action}}",
+    "ACTION_1": "Lies die Frage",
+    "ACTION_2": "Stelle pantomimisch dar",
+    "ACTION_3": "Zeichne",
+    "ACTION_4": "Summe die Melodie",
+    "GIVE_TO_3": "Legt das Gerät in der Mitte der Teams ab",
+    "GIVE_TO_3_ONEVSONE": "Frage an beide Spieler",
+    "GIVE_TO_2_ONEVSONE": "Frage an: {{teamName}}",
+    "GIVE_TO_2": "{{teamName}}: Alle müssen auf das Gerät gucken.",
+    "ACTION_EMPTY": "",
+    "GIVE_TO_1_ONEVSONE": ""
+  },
+  "QUESTIONS_PAGE_KNOWLEDGE": {
+    "ANSWER": "Antwort",
+    "TITLE": "Wissensfrage"
+  },
+  "QUESTIONS_PAGE_PAINT": {
+    "CLEAR": "Löschen",
+    "PAINT_IN_SNOW": "Zeichnen Im Sand"
+  },
+  "QUESTIONS_PAGE_PANTOMIME": {
+    "TITLE": "Pantomime",
+    "REMINDER": "An Frage erinnern",
+    "HIDE_REMINDER": "Verstecke die Frage"
+  },
+  "SETTINGS_PAGE": {
+    "OPT_1": {
+      "Q4": "Pantomime",
+      "Q2": "Zeichnen im Sand",
+      "Q5": "Memedia",
+      "Q3": "Summe die Melodie",
+      "TITLE": "Fragentypen",
+      "Q1": "Wissensfragen"
+    },
+    "NOT_AVAILABLE_LANGUAGE": "Nicht verfügbar in dieser Sprache",
+    "NOT_AVAILABLE": "Nur online verfügbar",
+    "DEC_EMPTY": "Du musst mindestens ein Jahrzehnt auswählen",
+    "TYPE_EMPTY": "Du musst mindestens eine Fragenkategorie wählen",
+    "ALL_EMPTY": "Du musst mindestens ein Jahrzehnt und einen Fragentyp wählen",
+    "CANT_BACK_TITLE": "Einen Moment bitte",
+    "TITLE": "OPTIONEN",
+    "OPT_2": {
+      "TITLE": "Anzahl der Runden",
+      "Q1": "5 Runden",
+      "Q2": "10 Runden",
+      "Q3": "15 Runden"
+    },
+    "OPT_3": {
+      "TITLE": "Schwierigkeitsgrad",
+      "Q1": "Leicht",
+      "Q2": "Mittel",
+      "Q3": "Schwer",
+      "Q4": "Wahnsinnig"
+    },
+    "OPT_4": {
+      "TITLE": "Sprache",
+      "Q1": "Ελληνικά",
+      "Q2": "English",
+      "Q3": "Français",
+      "Q4": "Español",
+      "Q5": "Deutsch",
+      "Q6": "Italiano"
+    },
+    "OPT_5": {
+      "TITLE": "Jahrzehnte",
+      "MORE": "Mehr",
+      "LESS": "Weniger",
+      "Q1": "2010",
+      "Q2": "2000",
+      "Q3": "1990",
+      "Q4": "1980",
+      "Q5": "1970",
+      "Q6": "1960",
+      "Q7": "Classic"
+    }
+  },
+  "QUESTIONS_PAGE_SINGIT": {
+    "TITLE": "Summe die Melodie"
+  },
+  "BEATYA_PAGE": {
+    "TITLE": "Beat Ya!",
+    "FOR_WHO" : "an alle",
+    "QUESTION" : "Zu welchem Lied gehört der Ausschnitt?"
+  },
+  "QUESTIONS_PAGE_SING": {
+    "CHALLENGE": "Summe die Melodie",
+    "RADIO_PICK": "Wähle ein Lied",
+    "ALERT_TITLE": "Uups!",
+    "ALERT_SUBTITLE": "Wir wissen du kannst es kaum erwarten loszulegen aber du muss dich erst für einen der 3 songs entscheiden!",
+    "ALERT_BUTTON": "OK"
+  },
+  "LOADING_LINES": {
+    "LINE_1": "Wir sammeln die besten fargen für euch...",
+    "LINE_2": "Machen Kaffee...",
+    "LINE_3": "Entwickeln weiter...",
+    "LINE_4": "Gleich haben wir´s geschafft...",
+    "LINE_5": "Wir füllen eure Ordner...",
+    "LINE_6": "Offline Fortsetzung",
+    "LINE_7": "Neue Fragen werden geladen"
+  },
+  "DOWNLOAD_PAGE": {
+    "TITLE": "Medien Downloaden",
+    "CAPITAL_TITLE": "MEDIEN DOWNLOADEN",
+    "FREE_SPACE": "Dein freier Speicher ist",
+    "P1": "Lade alle Medien herunter, um auch vollständig offline spielen zu können",
+    "P2": "Nötiger Speicher:",
+    "DLD": "Herunterladen",
+    "DLD_POPUP": "% ...",
+    "POPUP_TITLE": "Wird heruntergeladen",
+    "POPUP_DESC": "Bitte warten bis die Daten vollständig heruntergeladen sind",
+    "POPUP_BUT": "Abbrechen",
+    "FAILED": "Download fehlgeschlagen. Überprüfe deine Internetverbindung und deinen freien Speicherplatz",
+    "SUCCESS_TITLE": "Abgeschlossen",
+    "SUCCESS_DESC": "Dein Download wurde erfolgreich abgeschlossen",
+    "UNZIP": "",
+    "ALREADY": "Du besitzt schon die neuste Version unserer Daten"
+  },
+  "INFO_TXTS": {
+    "CAT": "Kategorie:",
+    "DEC": "Jahrzehnt:",
+    "POINTS": "Punkte:",
+    "PAINT_IT": "Verrate deinen Mitspielern <b> nur die Kategorie der Frage </b>. Ließ anschließend (nur für dich) was auf dem Bildschirm gefragt ist. Drücke LOS! und versuche es umzusetzen. Pass auf! Während du zeichnest erlischt das zu Beginn Gezeichnete langsam. Deine Mitspieler müssen sich beeilen und raten bevor die ganze Zeichnung erloschen ist und natürlich, bevor die Zeit abgelaufen ist.",
+    "PANTOMIME": "Versuche den Titel deinen Mitspielern nur mit Gestiken und ohne Geräusche darzustellen. Bevor du anfängst, darfst du Kategorie und Jahrzehnt verraten. Du darfst außerdem mit deinen Fingern zeigen wie viele Wörter du darstellen wirst und bei welchem du dich gerade befindest. Zusätzlich dürft ihr vor dem Spiel ausmachen, welche Zeichen ihr für Artikel verwenden wollt. Dein Team hat gewonnen, Wenn es den Titel errät bevor die Zeit um ist.",
+    "SING_IT": "Wähle eines der drei Lieder die auf dem Bildschirm angezeigt werden (das was du am besten kennst bzw. von dem du denkst dass es deine Mitspieler kennen). Anschließend musst du es „singen“ indem du nur eine Silbe und keinen Liedtext benutzt (z.B. la la la, na na na, usw.). Außerdem kannst du das Lied auch pfeifen, jodeln und sogar jaulen! Deine Mitspieler müssen den Titel in der vorgegebenen Zeit erraten.",
+    "BEATYA": "Beim Spiel BeatYA nehmen alle Spieler beider Mannschaften teil. Wenn ihr LOS! drückt wir Musik abgespielt werden. Der erste Spieler der es erkennt sagt <b>BeatYA</b> und antworte. VORSICHT: Wenn die Antwort falsch ist, Gewinnt die gegnerische Mannschaft die Runde (dann müsst ihr den entsprechenden button drücken). Kann keine der beiden Mannschaften antworten, so gilt es als Unentschieden.",
+    "BEATYA_ONEVSONE": "Beim Spiel BeatYA nehmen beide Spieler teil. Wenn ihr LOS! drückt wir Musik abgespielt werden. Der erste Spieler der es erkennt sagt <b>BeatYA</b> und antworte. VORSICHT: Wenn die Antwort falsch ist, Gewinnt die gegnerische Mannschaft die Runde (dann müsst ihr den entsprechenden button drücken). Kann keiner der beiden antworten, so gilt es als Unentschieden. ",
+    "MEMEDIA": "Lest die Frage, drückt LOS!, seht euch das Bild/GIF, oder hört euch die Aufnahme an. Findet die Antwort bevor die Zeit abläuft",
+    "MEMEDIA_ONEVSONE": "Lies die Frage, drück LOS!, sieh dir das Bild/GIF, oder hör dir die Aufnahme an. Finde die Antwort bevor die Zeit abläuft",
+    "KNOWLEDGE": "Informiere deine Mitspieler über die Fragenkategorie und drücke anschließend LOS!. Ließ die Frage die erscheint. Du und deine Mitspieler müssen die richtige Antwort finden bevor die Zeit abläuft.",
+    "KNOWLEDGE_ONEVSONE": "Finde die richtige Antwort bevor die Zeit abläuft"
+  },
+  "GO": "LOS!"
+}
