@@ -17,6 +17,14 @@
   "ROUND": "Round",
   "BEATYA": "BeatYa!",
   "GEN_SEL": "General selection",
+  "APP_WIDE": {
+    "SHOW_ANSWER": "ANSWER",
+    "YES":"YES",
+    "NO":"NO",
+    "INFO": "Information:",
+    "WAS_IT_THE_CORRECT_ANSWER" : "Did you answer correctly?",
+    "WAS_IT_THE_CORRECT_ANSWER_BEATYA" : "Who found the correct answer?"
+  },
   "APP_COMPONENTS": {
     "QUITHEAD": "Do you wish to close the app?",
     "QUITSUB": "Game progress will be lost",
