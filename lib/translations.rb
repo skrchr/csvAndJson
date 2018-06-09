@@ -141,6 +141,7 @@ class Translations
     
     temp_xls_changed = {}
     temp_xls_added = {}
+    temp_xls_deleted = {}
 
     puts "Checking if apps translation files are different from the main xls. If yes we will export new xls with the differences."
     multi_lingual_data_hash.each do |lang,hash|
@@ -168,6 +169,25 @@ class Translations
 
       end
     end
+
+    puts 'checking if something was deleted'
+    multi_lingual_xls_hash.each do |lang,hash|
+      hash.each do |key, value|
+        if multi_lingual_data_hash[lang][key] == nil
+          if temp_xls_deleted[key] == nil
+            temp_xls_deleted[key] = {}
+            multi_lingual_xls_hash.each do |lang,hash|
+              temp_xls_deleted[key][lang] = 'nochange'
+            end
+          end
+
+          temp_xls_deleted[key][lang] = 'DELETED'
+        end
+
+
+      end
+    end
+
     
 
 
@@ -208,6 +228,25 @@ class Translations
 
     3.times do 
       puts "Values that have been ADDED"
+    end
+
+    3.times do 
+      puts "Values that have been DELETED"
+    end
+
+    temp_xls_deleted.each do |key, value|
+      array = []
+      value.each do |key, value|
+        array.push(value)
+      end
+      array = array.join('$')
+
+
+      puts key.to_s + "$" + array.to_s
+    end
+
+    3.times do 
+      puts "Values that have been DELETED"
     end
 
     #getToWriteToFile = exportNewJsonFiles data_hash
