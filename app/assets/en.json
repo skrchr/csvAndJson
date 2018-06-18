@@ -3,12 +3,12 @@
   "BACK_BUTTON_TEXT": "Back",
   "HOME_PLAY_GAME": "PLAY GAME",
   "HOME_SETTINGS": "SETTINGS",
-  "DRAW": "DRAW",
+  "DRAW": "NOONE",
   "CONTINUE": "CONTINUE",
   "NAME_INPUT_PLACEHOLDER": "Change team name (optional)",
   "TEAM_1": "TEAM 1",
   "TEAM_2": "TEAM 2",
-  "RIGHT": "RIGHT",
+  "RIGHT": "WELL DONE",
   "WRONG": "WRONG",
   "HOME": "HOME",
   "WINNER": "WINNER",
@@ -19,11 +19,11 @@
   "GEN_SEL": "General selection",
   "APP_WIDE": {
     "SHOW_ANSWER": "ANSWER",
-    "YES":"YES",
-    "NO":"NO",
+    "YES": "YES",
+    "NO": "NO",
     "INFO": "Information:",
-    "WAS_IT_THE_CORRECT_ANSWER" : "Did you answer correctly?",
-    "WAS_IT_THE_CORRECT_ANSWER_BEATYA" : "Who found the correct answer?"
+    "WAS_IT_THE_CORRECT_ANSWER": "Did you answer correctly?",
+    "WAS_IT_THE_CORRECT_ANSWER_BEATYA": "Who found the correct answer?"
   },
   "APP_COMPONENTS": {
     "QUITHEAD": "Do you wish to close the app?",
@@ -38,12 +38,15 @@
     "DRAW": "Draw",
     "ITS_DRAW": "It's a <br>Draw",
     "REMATCH": "REMATCH",
-    "WINS": "<br>wins",
-    "ALERT_TITLE" : "Would you answer our questionnaire?",
-    "ALERT_SUBTITLE" : "Help beatYa! to grow by giving us your feedback.",
-    "BUTTON1" : "Definitely",
-    "BUTTON2" : "Remind me later",
-    "BUTTON3" : "No, i dont like you guys"
+    "WINS": "<br>wins{{teamName}}{{teamNumber}}",
+    "TEAM": "Team ",
+    "ALERT_TITLE": "Would you answer our questionnaire?",
+    "ALERT_SUBTITLE": "Help Beat Ya! to grow by giving us your feedback.",
+    "BUTTON1": "Definitely",
+    "BUTTON2": "Remind me later",
+    "BUTTON3": "No, Ι dont like you guys",
+    "ONE": "",
+    "TWO": ""
   },
   "TEAM2_PICK_NAME_PAGE": {
     "WAIT": "We are assembling your data, Please Wait..."
@@ -60,18 +63,15 @@
     "CORRECT": "Correct!",
     "WRONG": "Wrong",
     "ERROR": "Correct/Wrong, Who cares right?",
-    "GIVE_TO_READ": "Give the device to a player from {{teamName}} to read the question.",
+    "GIVE_TO_READ": "",
     "GIVE_TO_CHARADE": "Give the device to a player from {{teamName}} to charade.",
     "GIVE_TO_PAINT": "Give the device to a player from {{teamName}} to paint.",
     "GIVE_TO_HUM": "Give the device to a player from {{teamName}} to sing without lyrics.",
     "GIVE_TO_BEATYA": "Place the device in the middle of both teams.",
-    "GIVE_TO_BEATYA_ONEVSONE": "",
-    "GIVE_TO_MEMEDIA_ONEVSONE": "",
-    "GIVE_TO_MEMEDIA": "Place the device in the middle of {{teamName}}.",
-    "GIVE_TO_READ_ONEVSONE": ""
+    "GIVE_TO_MEMEDIA": ""
   },
   "QUESTIONS_PAGE_KNOWLEDGE": {
-    "ANSWER": "Answer",
+    "ANSWER": "ANSWER",
     "TITLE": "Knowledge Question"
   },
   "QUESTIONS_PAGE_PAINT": {
@@ -92,14 +92,18 @@
       "TITLE": "Question Types",
       "Q1": "Knowledge Questions"
     },
+    "BEATYA_TYPE": "BeatYa! (Always active)",
     "NOT_AVAILABLE_LANGUAGE": "Not available in this language",
     "NOT_AVAILABLE": "Available while online",
+    "GAME_OFFLINE": "Would you like to play BeatYa! offline?",
+    "GAME_OFFLINE_BUTTON": "Yes, redirect to download...",
     "DEC_EMPTY": "You will have to pick at least one decade.",
     "TYPE_EMPTY": "You will have to pick at least one question type.",
     "ALL_EMPTY": "You will have to pick at least one decade and one question type.",
     "CANT_BACK_TITLE": "Wait a second",
-    "SAVING" : "Saving",
-    "SAVED" : "Saved",
+    "SAVING": "Saving",
+    "SAVED": "Saved",
+    "SAVE": "SAVE",
     "TITLE": "OPTIONS",
     "OPT_2": {
       "TITLE": "Game Length",
@@ -127,13 +131,13 @@
       "TITLE": "Decades",
       "MORE": "Show more",
       "LESS": "Show less",
-      "Q1": "2010",
-      "Q2": "2000",
-      "Q3": "1990",
-      "Q4": "1980",
-      "Q5": "1970",
-      "Q6": "1960",
-      "Q7": "Classic"
+      "Q1": "2010.0",
+      "Q2": "2000.0",
+      "Q3": "1990.0",
+      "Q4": "1980.0",
+      "Q5": "1970.0",
+      "Q6": "1960.0",
+      "Q7": "<1960"
     }
   },
   "QUESTIONS_PAGE_SINGIT": {
@@ -141,14 +145,16 @@
   },
   "BEATYA_PAGE": {
     "TITLE": "Beat Ya!",
-    "FOR_WHO" : "For Both",
-    "QUESTION" : "From which song does this clip come from?"
+    "FOR_WHO": "For Both",
+    "QUESTION": "From which song does this clip come from?"
   },
   "QUESTIONS_PAGE_SING": {
     "CHALLENGE": "Humming Challenge",
     "RADIO_PICK": "Pick a song",
+    "BUTTON_PICK": "Pick a song",
     "ALERT_TITLE": "Whoops",
     "ALERT_SUBTITLE": "we know you cant wait to start singing but you need to pick one of the three songs first!",
+    "SONG_WAS": "The song was: ",
     "ALERT_BUTTON": "OK"
   },
   "LOADING_LINES": {
@@ -184,12 +190,11 @@
     "PAINT_IT": "Let your teammates know about the category of the question. Then read the word or phrase that your teammates will have to guess without letting them know it. Then press ‘GO!’ and try to draw it. Be careful though, because as you draw, the earlier parts of your drawing will fade away! Your teammates will have to hurry and guess the word or phrase before the drawing fades away or time runs out.",
     "PANTOMIME": "Try to describe the word or phrase to your teammates using only gestures and without using noises. Before you press ‘GO!’ you can inform your teammates of the category and decade or the question. You can show with your fingers the number of the words the phrase has, and which word you are currently describing. You can all agree on the way you will indicate if the current word is an article. Your team will win if your teammates guess the phrase correctly before time runs out.",
     "SING_IT": "Pick one of the three songs below (Either the one you know better or the one you believe your teammates know better). Press ‘GO!’ and hum the song to your teammates using the same syllable (for example: la la la la, or na na na na). You can also whistle or growl the melody of the song. Your teammates will have to find the song within the time limit in order to win.",
-    "BEATYA": "In BeatYa, both teams are competing. After the button ‘GO~’ is pressed, both teams will hear a music track. The first player who recognizes the track says <b>BeatYA</b> and then says out loud the correct answer. Be careful though, if the answer is incorrect, the opposite teams wins. (You will press the corresponding button). If no one recognizes the track then we have a draw.",
-    "BEATYA_ONEVSONE": "",
+    "BEATYA": "In BeatYa, both teams are competing. After the button ‘GO~’ is pressed, both teams will hear a music track. The first player who recognizes the track says BEAT YA! and then says out loud the correct answer. Be careful though, if the answer is incorrect, the opposite teams wins. (You will press the corresponding button). If no one recognizes the track then we have a draw.",
     "MEMEDIA": "Read the question out loud, press ‘GO!’, see the image/.gif, or hear the music track. Find the answer before time runs out.",
-    "MEMEDIA_ONEVSONE": "",
-    "KNOWLEDGE": "Let your teammates know the category of the question and then press ‘GO!’.  Read the question that will appear on the following screen out loud. You and your teammates must find the correct answer before time runs out.",
-    "KNOWLEDGE_ONEVSONE": ""
+    "KNOWLEDGE": "Let your teammates know the category of the question and then press ‘GO!’.  Read the question that will appear on the following screen out loud. You and your teammates must find the correct answer before time runs out."
   },
-  "GO": "GO!"
+  "GO": "GO!",
+  "GIVE_TO_BEATYA_ONEVSONE": "",
+  "GIVE_TO_MEMEDIA_ONEVSONE": ""
 }

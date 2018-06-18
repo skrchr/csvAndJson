@@ -110,14 +110,25 @@ class Translations
     data_hash = data_hash.reduce Hash.new, :merge
 
     puts "NEW XLS has the following differences"
+    
+    #We are deciding if we will delete the keys that xls doesnt have or not
+    #data_hash.each do |key,value|
+    #  if xls_hash[key] == nil
+    #    data_hash.delete(key)
+    #    puts "DELETED KEYS ARE"
+    #    puts key
+    #  end
+    #end 
+
     xls_hash.each do |key,value|
       if data_hash[key] != value && data_hash[key] != nil
         data_hash[key] = value
       elsif  data_hash[key] == nil
         data_hash[key] = value
       end
-
     end
+
+
 
     getToWriteToFile = exportNewJsonFiles data_hash
     File.open("./app/assets/temp"+lang+".json","w") do |f|
