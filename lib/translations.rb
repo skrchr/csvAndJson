@@ -11,9 +11,18 @@ class Translations
     puts "initializing translations"
   end
 
+
+  def self.import_all
+    current_file = 'app/assets/translations-beatya-2018-09-27-vas.xls';
+    compareAndImport 'el', current_file;
+    compareAndImport 'de', current_file;
+    compareAndImport 'es', current_file;
+    compareAndImport 'en', current_file;
+  end
+
   def self.export lang
-    #Create an object from ./app/assets/#{lang}.json and return it
-    data = JSON.parse(File.read("./app/assets/#{lang}.json"));
+    #Create an object from ./app/assets/i18n/#{lang}.json and return it
+    data = JSON.parse(File.read("./app/assets/i18n/#{lang}.json"));
 
 
     translations = []
@@ -105,26 +114,36 @@ class Translations
     #It will compare the xls we provide with the current ./app/assets/lang.json files and it will export new ones
     #The new files will also have the added keys with their values, or the changed values.
 
-    xls_hash = read_xls lang, file
-    data_hash = export lang
+    xls_hash = read_xls(lang, file)
+    data_hash = export (lang)
     data_hash = data_hash.reduce Hash.new, :merge
 
     puts "NEW XLS has the following differences"
     
     #We are deciding if we will delete the keys that xls doesnt have or not
     #data_hash.each do |key,value|
-    #  if xls_hash[key] == nil
-    #    data_hash.delete(key)
-    #    puts "DELETED KEYS ARE"
-    #    puts key
-    #  end
+      #if xls_hash[key] == nil
+        #data_hash.delete(key)
+        #puts "DELETED KEYS ARE"
+        #puts key
+      #end
     #end 
 
     xls_hash.each do |key,value|
       if data_hash[key] != value && data_hash[key] != nil
-        data_hash[key] = value
+        
+        if value.is_a? Numeric
+          data_hash[key] = value.to_i
+        else
+          data_hash[key] = value
+        end
+        
       elsif  data_hash[key] == nil
-        data_hash[key] = value
+        if value.is_a? Numeric
+          data_hash[key] = value.to_i
+        else
+          data_hash[key] = value
+        end
       end
     end
 
@@ -139,7 +158,7 @@ class Translations
 
   def self.compareAndExportToConsole file
 
-    langs = ["en","el","de"]# πρεπει να το κάνω να τα παίρνει απο την πρώτη σειρα
+    langs = ["en","el","de",'es']# πρεπει να το κάνω να τα παίρνει απο την πρώτη σειρα
     multi_lingual_data_hash = {}
     multi_lingual_xls_hash = {}
     langs.each do |item|

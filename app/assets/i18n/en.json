@@ -1,0 +1,301 @@
+{
+  "ANSWER": "ANSWER",
+  "BACK_BUTTON_TEXT": "Back",
+  "HOME_SETTINGS": "SETTINGS",
+  "DRAW": "NOONE",
+  "CONTINUE": "CONTINUE",
+  "NAME_INPUT_PLACEHOLDER": "Change team name (optional)",
+  "PLAYER_NAME_INPUT_PLACEHOLDER": "Change player name (optional)",
+  "TEAM_1": "TEAM 1",
+  "TEAM_2": "TEAM 2",
+  "PLAYER_1": "PLAYER 1",
+  "PLAYER_2": "PLAYER 2",
+  "RIGHT": "WELL DONE",
+  "WRONG": "WRONG",
+  "HOME": "HOME",
+  "VERSION": "Version: ",
+  "RESULTS": "RESULTS",
+  "CANCEL": "CANCEL",
+  "SAVE": "SAVE",
+  "ROUND": "Round",
+  "BEATYA": "Beat Ya!",
+  "GEN_SEL": "General selection",
+  "ACCOUNT": {
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "LOGIN": "LOGIN",
+    "SIGN_UP": "SIGN UP",
+    "FORGOT_PSW": "FORGOT PASSWORD",
+    "LOG_WITH_FB": "LOGIN WITH FACEBOOK",
+    "CHANGE_USERNAME": "Would you like to change your username?",
+    "TOAST_MESSAGE_WAIT": "Wait for the previous process to finish",
+    "TOAST_MESSAGE_SUCCESS_LOGIN": "Successful Log In, We will redirect you soon",
+    "TOAST_MESSAGE_CREDENTIAL_FAIL": "The credentials you entered don’t match any account",
+    "TOAST_MESSAGE_ERROR": "There was an error",
+    "TOAST_MESSAGE_ERROR_DURING_SIGN_UP": "There was an error during signing up..",
+    "TOAST_MESSAGE_SUCCESS_REGISTER": "Successful registration",
+    "NO_BLANK": "Can't be blank",
+    "IS_INVALID": "invalid data",
+    "ALREADY_TAKEN": "already taken",
+    "TOO_SHORT_MINIMUM_1": "too short, minimum one character",
+    "NO_INTERNET": "Please connect to the internet to authenticate"
+  },
+  "GAME_COUNT_MODAL": {
+    "AVAILABLE_G": "Available Games",
+    "START": "START GAME",
+    "BUY": "BUY",
+    "ADS": "WATCH AD",
+    "AVAILABLE_SOON": "AVAILABLE SOON",
+    "AVAILABLE_NOW": "+1",
+    "AD_TIMER_TOAST ": "You can get another free game in:{{timer}}"
+  },
+  "SOLO": {
+    "PREVIOUS_SCORES_TITLE": "Your Top 5 Results:",
+    "WELCOME_SCREEN": {
+      "TITLE": "Selected Categories"
+    },
+    "MAIN_PAGE": {
+      "LOADING": "Loading...",
+      "WAIT_TO_LISTEN": "Listen to the track and answer the question when it has finished playing",
+      "WAIT_TO_WATCH": "Watch the video and answer the question when it has finished playing",
+      "BUG_MESSAGE": "It appears there is not enough bandwidth to load the media. Click In the arrow to go back. If you keep having this problem please report it using the bug button so we can fix it."
+    },
+    "RESULTS_SCREEN": {
+      "YOUR_SCORE": "Your score",
+      "SHARE": "SHARE",
+      "SHARE_MESSAGE": "User: {{user}}, has scored {{score}} points on Beat Ya!. Can you score higher?"
+    }
+  },
+  "APP_WIDE": {
+    "SHOW_ANSWER": "ANSWER",
+    "YES": "YES",
+    "NO": "NO",
+    "INFO": "Info",
+    "WAS_IT_THE_CORRECT_ANSWER": "Did you answer correctly?",
+    "WAS_IT_THE_CORRECT_ANSWER_BEATYA": "Who found the correct answer?",
+    "FROM": "from",
+    "LOADING_POPUP": "Something went wrong, please restart the app.",
+    "LOADING_POPUP_CLOSING": "Closing in: ",
+    "EMAIL_WORD": "Email"
+  },
+  "HOME_PAGE": {
+    "MORE_VS_MORE": "TEAM VS TEAM",
+    "ONE_VS_ONE": "ONE vs ONE",
+    "SOLO": "SINGLE PLAYER"
+  },
+  "PICK_TYPE_PAGE": {
+    "BEATYA_TYPE_CLICK": "Always active. A fast round that appears randomly and all players from both teams compete.",
+    "OLNY_BEATYA": "You need to pick at least BeatYa! and another category!",
+    "ERROR_NOT_ENOUGH_TAGS": "You forgot to select two question categories",
+    "ERROR_NOT_ENOUGH_TAGS_2": "You must select four question categories",
+    "ERROR_TAGS_WAIT": "Whoops",
+    "SOLO_TITLE_SECOND": "Select another two question categories",
+    "SOLO_TITLE_THIRD": "Select two question categories each",
+    "SOLO_TITLE": "Single Player",
+    "PICK_SOME_CATS": "Pick at least one category",
+    "CHANGE_TEAM_NAMES": "Enter new name (optional)",
+    "PLAYER1_NAME": "Player one display name:",
+    "PLAYER2_NAME": "Player two display name:"
+  },
+  "APP_COMPONENTS": {
+    "QUITHEAD": "Do you wish to close the app?",
+    "QUITSUB": "Game progress will be lost",
+    "QUITBUT1": "BACK",
+    "QUITBUT2": "OK",
+    "USER_OFFLINE_HEAD": "You Are Offline",
+    "USER_OFFLINE": "We detected you are offline and you havent downloaded offline media data. In this case question type Beat Ya! will be deactivated. You can play Beat Ya! offline after downloading the game content. Go to Settings, scroll down and click 'Yes, I want to download all media",
+    "USER_OFFLINE_V2": "We detected you are offline. In this case beatYa will be deactivated.",
+    "OFFLINE_WHILE_PLAYING": "You have lost connection to the internet. Questions that contain visual or audio assets wont work properly. You can play Beat Ya! offline after downloading the game content. Go to Settings, scroll down and click 'Yes, I want to download all media'",
+    "OFFLINE_WHILE_PLAYING_V2": "You have lost connection to the internet. Questions that contain visual or audio assets wont work properly.",
+    "OFFLINE_MSG_FOR_SOLO": "You have lost connection to the internet. Please reconnect to continue your game."
+  },
+  "WIN_PAGE": {
+    "ITS_DRAW": "Draw",
+    "REMATCH": "REMATCH",
+    "WINS": "winner:<br>{{teamName}}",
+    "TEAM": "Team ",
+    "ALERT_TITLE": "Would you answer our questionnaire?",
+    "ALERT_SUBTITLE": "Help Beat Ya! to grow by giving us your feedback.",
+    "BUTTON1": "Definitely, nothing better to do anyway!",
+    "BUTTON2": "Remind me later",
+    "BUTTON3": "No, Ι don't like you guys",
+    "ONE": "1",
+    "TWO": "2",
+    "WINS_1V1": "winner:<br>{{teamName}}",
+    "RATE_POPUP_TITLE": "Rate BeatYa!",
+    "RATE_POPUP_SUBTITLE": "Show us your support by rating us. Let us know what you would like to see in the future",
+    "RATE_POPUP_BUTTON1": "Yes I will show my support"
+  },
+  "TEAM2_PICK_NAME_PAGE": {
+    "WAIT": "We are assembling your data, Please Wait..."
+  },
+  "CATEGORY_PAGE": {
+    "BTN_READY": "READY",
+    "ROUND": "Round",
+    "CORRECT": "Correct!",
+    "WRONG": "Wrong",
+    "ERROR": "Correct/Wrong, Who cares, right?",
+    "GIVE_TO_CHARADE": "Pick a player from <span class='desc-orange-text'>{{teamName}}</span> for charades.",
+    "GIVE_TO_PAINT": "Pick a player from <span class='desc-orange-text'>{{teamName}}</span> to draw.",
+    "GIVE_TO_HUM": "Pick a player from <span class='desc-orange-text'>{{teamName}}</span> to sing without lyrics.",
+    "GIVE_TO_BEATYA": "<span class='desc-orange-text'>{{team1Name}} – {{team2Name}}:</span> Place the device in the middle of both teams.",
+    "GIVE_TO_BEATYA_ONEVSONE": "<span class='desc-orange-text'>{{team1Name}} – {{team2Name}}:</span> Place the device in the middle",
+    "GIVE_TO_READ": "<span class='desc-orange-text'>{{teamName}}</span>",
+    "GIVE_TO_READ_ONEVSONE": "<span class='desc-orange-text'>{{teamName}}</span>"
+  },
+  "QUESTIONS_PAGE_KNOWLEDGE": {
+    "ANSWER": "ANSWER",
+    "TITLE": "Knowledge Question"
+  },
+  "QUESTIONS_PAGE_PAINT": {
+    "CLEAR": "Clear",
+    "PAINT_IN_SNOW": "Sketch it"
+  },
+  "QUESTIONS_PAGE_PANTOMIME": {
+    "TITLE": "Charades Challenge",
+    "REMINDER": "Remind Question",
+    "HIDE_REMINDER": "Hide The Question"
+  },
+  "SETTINGS_PAGE": {
+    "OPT_1": {
+      "Q4": "Charades Challenge",
+      "Q2": "Sketch it",
+      "Q3": "Humming Challenge",
+      "TITLE": "Question Types",
+      "Q1": "Knowledge Questions"
+    },
+    "BEATYA_TYPE": "Beat Ya!",
+    "NOT_AVAILABLE_LANGUAGE": "Not available in this language",
+    "NOT_AVAILABLE": "Available while online",
+    "GAME_OFFLINE": "Would you like to play BeatYa! offline?",
+    "GAME_OFFLINE_BUTTON": "Yes, I want to download all media",
+    "DEC_EMPTY": "You will have to pick at least one decade.",
+    "TYPE_EMPTY": "You will have to pick at least one question type.",
+    "ALL_EMPTY": "You will have to pick at least one decade and one question type.",
+    "CANT_BACK_TITLE": "Wait a second",
+    "SAVE": "SAVE",
+    "DEV_OPTIONS": "Developer Options",
+    "DEV_MODE": "Activate Beta Testing",
+    "TITLE": "OPTIONS",
+    "OPT_2": {
+      "TITLE": "Game Length",
+      "Q1": "5 Questions",
+      "Q2": "10 Questions",
+      "Q3": "15 Questions"
+    },
+    "OPT_3": {
+      "TITLE": "Difficulty",
+      "Q1": "EASY",
+      "Q2": "NORMAL",
+      "Q3": "HARD",
+      "Q4": "INSANE"
+    },
+    "OPT_4": {
+      "TITLE": "Language",
+      "Q1": "Ελληνικά",
+      "Q2": "English",
+      "Q3": "Français",
+      "Q4": "Español",
+      "Q5": "Deutsch",
+      "Q6": "Italiano"
+    },
+    "OPT_5": {
+      "TITLE": "Decades - For BeatYa! and Humming challenge",
+      "MORE": "Show more",
+      "LESS": "Show less",
+      "S_ALL": "Select All",
+      "D_ALL": "Deselect All",
+      "Q1": "2010",
+      "Q2": "2000",
+      "Q3": "1990",
+      "Q4": "1980",
+      "Q5": "1970",
+      "Q6": "1960",
+      "Q7": "<1960"
+    }
+  },
+  "BEATYA_PAGE": {
+    "TITLE": "Beat Ya!",
+    "NO_ONE": "No One",
+    "FOR_WHO": "Faster team wins",
+    "SORT_1": "Which song does this clip come from?",
+    "SORT_2": "Which series is this clip from?",
+    "SORT_3": "Which movie is this clip from?",
+    "SORT_4": "Which track is this clip from?",
+    "SHOW_MEDIA": "Back",
+    "GAME_TYPE_1": "Beat Ya! Classic",
+    "GAME_TYPE_2": "Beat Ya! Beaz"
+  },
+  "QUESTIONS_PAGE_SING": {
+    "CHALLENGE": "Humming Challenge",
+    "RADIO_PICK": "Pick a song",
+    "ALERT_TITLE": "Whoops",
+    "ALERT_SUBTITLE": "we know you cant wait to start singing but you need to pick one of the six songs first!",
+    "ALERT_BUTTON": "OK"
+  },
+  "LOADING_LINES": {
+    "LINE_1": "Cleaning Up the desk...",
+    "LINE_2": "Boiling the coffee...",
+    "LINE_3": "Updating your folders...",
+    "LINE_4": "Go ahead, hold your breath!...",
+    "LINE_5": "Filling your folders",
+    "LINE_6": "Continuing offline",
+    "LINE_7": "Downloading new questions",
+    "LINE_8": "New Version Available, Don’t interrupt the process. Downloading..."
+  },
+  "DOWNLOAD_PAGE": {
+    "TITLE": "Download Media",
+    "CAPITAL_TITLE": "DOWNLOAD MEDIA",
+    "FREE_SPACE": "Your free space is",
+    "P1": "Download all of our media to your device in order to play fully offline",
+    "P2": "Required Free Space is:",
+    "DLD": "Download",
+    "DLD_POPUP": "% downloaded...",
+    "POPUP_TITLE": "Downloading",
+    "POPUP_DESC": "Please wait until all the data are downloaded in your device",
+    "POPUP_BUT": "Abort",
+    "FAILED": "Your download has failed, make sure you are connected to the internet and have enough space to store the files.",
+    "SUCCESS_TITLE": "Success",
+    "SUCCESS_DESC": "Your download was successful",
+    "UNZIP": "% Unzipping...",
+    "PLACEHODLER_1": "Could not detect space",
+    "PLACEHODLER_2": "Could not detect file size",
+    "ALREADY": "You already have the latest version of our media folder",
+    "DL_AGAIN": "Download Again",
+    "CANCEL": "Cancel",
+    "DLD_MEDIA_STATUS": "Using Offline Media",
+    "WIPE": "WIPE MEDIA",
+    "UPDATE": "UPDATE",
+    "STATUS_ACTIVE": "(No internet Connection Needed)",
+    "WIPING_DATA": "Wiping current data",
+    "NEW_UPDATE": "PLease update your offline media to the most recent version",
+    "LAST_UPDATE": "Last Updated",
+    "WIPING_DATA_POPUP_NOTIFICATION": "This action will delete the offline data you have previously downloaded. Press Ok to confirm, or cancel to go back"
+  },
+  "INFO_TXTS": {
+    "BEATYA_ONEVSONE": "In the Beat Ya! round both players participate. Press GO. You will listen to a music fragment. The first player to recognize it, shouts BeatYa! And gives the answer. If the answer is wrong the other player wins (you will have to press the appropriate button). If both players give no answer, it is a tie.",
+    "CAT": "Category:",
+    "DEC": "Decade:",
+    "POINTS": "Points:",
+    "PAINT_IT": "The team picks a player. The player reads out the question category. Then the player reads the rest of the content without letting the teammates know and presses GO!. On the next screen the player needs to draw the word so the teammates find it. As they draw, the earlier parts of the drawing start to fade. The teammates need to find the word before the drawing fades out and of course, before time runs out.",
+    "PANTOMIME": "The team picks a player. The player reads out the category and decade of the question and presses GO!. Then the player needs to describe the title only with gestures, without the use of sounds. Using their fingers they can indicate the number of words in the title or which word they desscribe. The teams can seetle in advance how to indicate the articles. The team wins the round if they find out the right title before time runs out.",
+    "SING_IT": "The team picks a player. The player needs to choose one of the six songs on the screen and using the same syllable (la la la, do do do), without any words, they need to \"sing\" the melody. They can hum, whistle or even growl the melody. Their teammmates have to find the right answer before time runs out. If some of the six options were already chosen in a previous round, they can not be picked again in this round. ",
+    "BEATYA": "In the Beat Ya! round all players from both teams participate. Press GO. You will listen to a music fragment. The first player to recognize it, shouts BeatYa! And gives the answer. If the answer is wrong the other team wins (you will have to press the appropriate button). If both teams give no answer, it is a tie. ",
+    "MEMEDIA": "Read the question out loud, press ‘GO!’, an image/gif will appear or an audio excerpt will start. Find the answer to the question before time runs out.",
+    "KNOWLEDGE": "Read the category of the question and press GO!. Read out the question. You have to find the right answer before time runs out.",
+    "FIRST_TIME_REMINDER": "You can always read the instructions again by clicking the (?) icon.",
+    "ALERT_TITLE": "Instructions"
+  },
+  "POPOVER_COMPONENT": {
+    "GIVE_FEED": "Give us your feedback",
+    "NAME": "Name",
+    "INFORMATION": "Description",
+    "SEND": "Send",
+    "BUG": "Report a bug",
+    "RESTART_GAME": "RESTART GAME"
+  },
+  "GO": "GO!",
+  "HOME_PLAY_GAME": "PLAY GAME",
+  "USER_OFFLINE_V2": "We detected you are offline. In this case question type BeatYa will be deactivated.",
+  "OFFLINE_WHILE_PLAYING_V2": "You have lost connection to the internet. Questions that contain visual or audio assets wont work properly."
+}

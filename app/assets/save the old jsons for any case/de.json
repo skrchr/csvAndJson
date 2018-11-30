@@ -1,0 +1,246 @@
+{
+  "ANSWER": "ANTWORT",
+  "BACK_BUTTON_TEXT": "zurrück",
+  "HOME_PLAY_GAME": "SPIELEN",
+  "HOME_SETTINGS": "EINSTELLUNGEN",
+  "DRAW": "GLEICHSTAND",
+  "CONTINUE": "WEITER",
+  "NAME_INPUT_PLACEHOLDER": "Teamnamen ändern (optional)",
+  "TEAM_1": "TEAM 1",
+  "TEAM_2": "TEAM 2",
+  "RIGHT": "SUPER",
+  "WRONG": "FALSCH",
+  "HOME": "STARTSEITE",
+  "CANCEL": "RÜCKGÄNGIG",
+  "SAVE": "SPEICHERN",
+  "ROUND": "Runde",
+  "BEATYA": "Beat Ya!",
+  "GEN_SEL": "Αllgemeine Fragen",
+  "APP_COMPONENTS": {
+    "QUITHEAD": "Möchtest du die App schließen?",
+    "QUITSUB": "Dein Fortschritt wird verloren gehen",
+    "QUITBUT1": "ZURÜCK",
+    "QUITBUT2": "OK",
+    "USER_OFFLINE_HEAD": "Du bist offline",
+    "USER_OFFLINE": "Scheinbar bist du offline und hast die offline Daten noch nicht geladen. KLICKE HIER um sie herunterzuladen und komplett offline spielen zu können. ",
+    "OFFLINE_WHILE_PLAYING": "Verbindung zum Internet fehlgeschlagen. Die nötigen Daten können nicht geladen werden :(",
+    "USER_OFFLINE_V2": "We detected you are offline. In this case question types memedia and beatYa will be deactivated.",
+    "OFFLINE_WHILE_PLAYING_V2": "You have lost connection to the internet. Questions that contain visual or audio assets wont work properly."
+  },
+  "WIN_PAGE": {
+    "REMATCH": "REVANCHE",
+    "WINS": "{{teamName}}<br> hat gewonnen",
+    "ALERT_TITLE": "Würdet ihr bei unserer Umfrage mitmachen?",
+    "ALERT_SUBTITLE": "Helft uns Beat Ya! zu verbessern indem ihr uns ein Feedback gebt",
+    "BUTTON1": "AUF JEDEN FALL!",
+    "BUTTON2": "ERINNERE MICH SPÄTER",
+    "BUTTON3": "NÖ, ICH MAG EUCH NICHT",
+    "TEAM": "TEAM",
+    "ONE": "1",
+    "TWO": "2",
+    "WINS_1V1": "{{teamName}}<br> hat gewonnen",
+    "ITS_DRAW": "Gleichstand",
+    "RATE_POPUP_TITLE": "Rate BeatYa!",
+    "RATE_POPUP_SUBTITLE": "Show us your support by rating us. Let us know what you would like to see in the future",
+    "RATE_POPUP_BUTTON1": "Yes i will show my support"
+  },
+  "TEAM2_PICK_NAME_PAGE": {
+    "WAIT": "Bitte warten..."
+  },
+  "QUESTIONS_PAGE_MEMEDIA": {
+    "SHOW_MEDIA": "zurück",
+    "TITLE": "Memedia"
+  },
+  "CATEGORY_PAGE": {
+    "BTN_READY": "BEREIT",
+    "ROUND": "Runde",
+    "CORRECT": "richtig!",
+    "WRONG": "falsch ",
+    "ERROR": "Richtig...Falsch...Wen juckt´s?",
+    "GIVE_TO_CHARADE": "Ein Spieler von <span class='desc-orange-text'>{{teamName}}</span> bekommt das Gerät. Seine Aufgabe: Stelle pantomimisch dar",
+    "GIVE_TO_PAINT": "Ein Spieler von <span class='desc-orange-text'>{{teamName}}</span> bekommt das Gerät. Seine Aufgabe: Zeichne",
+    "GIVE_TO_HUM": "Ein Spieler von <span class='desc-orange-text'>{{teamName}}</span> bekommt das Gerät. Seine Aufgabe: Summe die Melodie",
+    "GIVE_TO_BEATYA": "<span class='desc-orange-text'>{{team1Name}} – {{team2Name}}:</span> Legt das Gerät in der Mitte der Teams ab",
+    "GIVE_TO_BEATYA_ONEVSONE": "<span class='desc-orange-text'>{{team1Name}} – {{team2Name}}:</span> Legt das Gerät in der Mitte der Teams ab",
+    "GIVE_TO_READ": "<span class='desc-orange-text'>{{teamName}}</span>",
+    "GIVE_TO_READ_ONEVSONE": "<span class='desc-orange-text'>{{teamName}}</span>",
+    "GIVE_TO_MEMEDIA": "<span class='desc-orange-text'>{{teamName}}</span>",
+    "GIVE_TO_MEMEDIA_ONEVSONE": "<span class='desc-orange-text'>{{teamName}}</span>"
+  },
+  "QUESTIONS_PAGE_KNOWLEDGE": {
+    "ANSWER": "ANTWORT",
+    "TITLE": "Wissensfrage"
+  },
+  "QUESTIONS_PAGE_PAINT": {
+    "CLEAR": "Löschen",
+    "PAINT_IN_SNOW": "Zeichnen Im Sand"
+  },
+  "QUESTIONS_PAGE_PANTOMIME": {
+    "TITLE": "Pantomime",
+    "REMINDER": "An Frage erinnern",
+    "HIDE_REMINDER": "Verstecke die Frage"
+  },
+  "SETTINGS_PAGE": {
+    "OPT_1": {
+      "Q4": "Pantomime",
+      "Q2": "Zeichnen Im Sand",
+      "Q5": "Memedia",
+      "Q3": "Summe die Melodie",
+      "TITLE": "Fragentypen",
+      "Q1": "Wissensfragen"
+    },
+    "NOT_AVAILABLE_LANGUAGE": "Nicht verfügbar in dieser Sprache",
+    "DEC_EMPTY": "Du musst mindestens ein Jahrzehnt auswählen",
+    "TYPE_EMPTY": "Du musst mindestens eine Fragenkategorie wählen",
+    "ALL_EMPTY": "Du musst mindestens ein Jahrzehnt und einen Fragentyp wählen",
+    "CANT_BACK_TITLE": "Einen Moment bitte",
+    "TITLE": "OPTIONEN",
+    "OPT_2": {
+      "TITLE": "Anzahl der Runden",
+      "Q1": "5 Runden",
+      "Q2": "10 Runden",
+      "Q3": "15 Runden"
+    },
+    "OPT_3": {
+      "TITLE": "Schwierigkeitsgrad",
+      "Q1": "Leicht",
+      "Q2": "Mittel",
+      "Q3": "Schwer",
+      "Q4": "Wahnsinnig"
+    },
+    "OPT_4": {
+      "TITLE": "Sprache",
+      "Q1": "Ελληνικά",
+      "Q2": "English",
+      "Q3": "Français",
+      "Q4": "Español",
+      "Q5": "Deutsch",
+      "Q6": "Italiano"
+    },
+    "OPT_5": {
+      "TITLE": "Jahrzehnte",
+      "MORE": "Mehr",
+      "LESS": "Weniger",
+      "Q1": "2010",
+      "Q2": "2000",
+      "Q3": "1990",
+      "Q4": "1980",
+      "Q5": "1970",
+      "Q6": "1960",
+      "Q7": "<1960",
+      "S_ALL": "Select All",
+      "D_ALL": "Deselect All"
+    },
+    "BEATYA_TYPE": "Beat Ya!",
+    "GAME_OFFLINE": "Möchtest du BeatYa! Auch offline spielen?",
+    "GAME_OFFLINE_BUTTON": "Ja, ich möchte alle Dateien herunterladen",
+    "SAVE": "speichern",
+    "NOT_AVAILABLE": "Available while online",
+    "DEV_OPTIONS": "Developer Options",
+    "DEV_MODE": "Developer Mode"
+  },
+  "BEATYA_PAGE": {
+    "TITLE": "Beat Ya!",
+    "FOR_WHO": "Der Schnellere gewinnt",
+    "SORT_1": "Aus welchem Lied stammt dieser Ausschnitt?",
+    "SORT_2": "In welcher Serie hört man diese Melodie?",
+    "SORT_3": "In welchem Film hört man diese Melodie?",
+    "SORT_4": "Von welchem Stück stammt dieser Ausschnitt?",
+    "NO_ONE": "No One"
+  },
+  "QUESTIONS_PAGE_SING": {
+    "CHALLENGE": "Summe die Melodie",
+    "RADIO_PICK": "Wähle ein Lied",
+    "ALERT_TITLE": "Uups!",
+    "ALERT_SUBTITLE": "Wir wissen du kannst es kaum erwarten loszulegen aber du muss dich erst für einen der 6 songs entscheiden!",
+    "ALERT_BUTTON": "OK"
+  },
+  "LOADING_LINES": {
+    "LINE_1": "Wir sammeln die besten fargen für euch...",
+    "LINE_2": "Machen Kaffee...",
+    "LINE_3": "Entwickeln weiter...",
+    "LINE_4": "Gleich haben wir´s geschafft...",
+    "LINE_5": "Wir füllen eure Ordner...",
+    "LINE_6": "Offline Fortsetzung",
+    "LINE_7": "Neue Fragen werden geladen",
+    "LINE_8": "New Version Available, Don’t interrupt the process. Downloading..."
+  },
+  "DOWNLOAD_PAGE": {
+    "TITLE": "Medien Downloaden",
+    "CAPITAL_TITLE": "MEDIEN DOWNLOADEN",
+    "FREE_SPACE": "Dein freier Speicher ist",
+    "P1": "Lade alle Medien herunter, um auch vollständig offline spielen zu können",
+    "P2": "Nötiger Speicher:",
+    "DLD": "HERUNTERLADEN",
+    "DLD_POPUP": "% ...",
+    "POPUP_TITLE": "Wird heruntergeladen",
+    "POPUP_DESC": "Bitte warten bis die Daten vollständig heruntergeladen sind",
+    "POPUP_BUT": "Abbrechen",
+    "FAILED": "Download fehlgeschlagen. Überprüfe deine Internetverbindung und deinen freien Speicherplatz",
+    "SUCCESS_TITLE": "Abgeschlossen",
+    "SUCCESS_DESC": "Dein Download wurde erfolgreich abgeschlossen",
+    "ALREADY": "Du besitzt schon die neuste Version unserer Daten",
+    "DL_AGAIN": "Lade es erneut runter",
+    "CANCEL": "Rückgängig",
+    "UNZIP": "% Unzipping...",
+    "PLACEHODLER_1": "Could not detect space",
+    "PLACEHODLER_2": "Could not detect file size",
+    "DLD_MEDIA_STATUS": "Using Offline Media",
+    "WIPE": "WIPE MEDIA",
+    "STATUS_ACTIVE": "(No internet Connection Needed)",
+    "WIPING_DATA": "Wiping current data",
+    "WIPING_DATA_POPUP_NOTIFICATION": "This action will delete the offline data you have previously downloaded. Press Ok to confirm, or cancel to go back",
+    "UPDATE": "UPDATE",
+    "NEW_UPDATE": "PLease update your offline media to the most recent version",
+    "LAST_UPDATE": "Last Updated"
+  },
+  "INFO_TXTS": {
+    "CAT": "Kategorie:",
+    "DEC": "Jahrzehnt:",
+    "POINTS": "Punkte:",
+    "PAINT_IT": "Der Spieler den die Mannschaft ausgewählt hat informiert seine Mitspieler über die Spielkategorie. Anschließend soll er (nur für sich) die Aufgabe lesen und LOS klicken. Im nächsten Schritt muss er zeichnen, so dass seine Mitspieler erraten worum es sich dabei handelt. Vorsicht! Während du zeichnest erlischt das zu Beginn Gezeichnete langsam. Deine Mitspieler müssen sich beeilen und raten bevor die ganze Zeichnung erloschen ist und natürlich, bevor die Zeit abgelaufen ist.",
+    "PANTOMIME": "Der Spieler den die Mannschaft ausgewählt hat informiert seine Mitspieler über die Kategorie und das Jahrzehnt der Frage. Anschließend, nachdem auf LOS geklickt wurde, muss er seinen Mitspielern den Titel pantomimisch darstellen, ohne jegliche Töne von sich zu geben. Er darf mit seinen Fingern zeigen wie viele Wörter er darstellen wird und bei welchem er sich gerade befindet. Zusätzlich dürft ihr vor dem Spiel ausmachen, welche Zeichen ihr für Artikel verwenden wollt. Gewonnen hat das Team, das den Titel errät bevor die Zeit um ist.",
+    "SING_IT": "Der Spieler den die Mannschaft ausgewählt hat muss einen der 6 Songs wie ihm angezeigt werden wählen (den der am besten kennt  oder von dem er denkt, dass ihn seine Mitspieler kennen). Anschließend musst er es „singen“ indem er nur eine Silbe und keinen Liedtext benutzt (z.B. la la la, na na na, usw.). Außerdem kannst er das Lied auch pfeifen, jodeln und sogar jaulen! Seine Mitspieler müssen den Titel in der vorgegebenen Zeit erraten.",
+    "BEATYA": "Beim Spiel Beat Ya nehmen alle Spieler beider Mannschaften teil. Wenn ihr LOS! drückt wir Musik abgespielt werden. Der erste Spieler der es erkennt sagt BEAT YA! und antworte. VORSICHT: Wenn die Antwort falsch ist, Gewinnt die gegnerische Mannschaft die Runde (dann müsst ihr den entsprechenden button drücken). Kann keine der beiden Mannschaften antworten, so gilt es als Unentschieden.",
+    "MEMEDIA": "Lest die Frage, drückt LOS!, seht euch das Bild/GIF an, oder hört euch die Aufnahme an. Findet die Antwort bevor die Zeit abläuft",
+    "KNOWLEDGE": "Lest die Kategorie der Frage und klickt anschießend auf LOS. Lest die Frage. Findet die Antwort bevor die Zeit abläuft",
+    "BEATYA_ONEVSONE": "Beim Spiel Beat Ya nehmen alle Spieler beider Mannschaften teil. Wenn ihr LOS! drückt wir Musik abgespielt werden. Der erste Spieler der es erkennt sagt BEAT YA! und antworte. VORSICHT: Wenn die Antwort falsch ist, Gewinnt die gegnerische Mannschaft die Runde (dann müsst ihr den entsprechenden button drücken). Kann keine der beiden Mannschaften antworten, so gilt es als Unentschieden.",
+    "FIRST_TIME_REMINDER": "You can always read the instructions again by clicking the (?) icon.",
+    "ALERT_TITLE": "Instructions"
+  },
+  "GO": "LOS!",
+  "APP_WIDE": {
+    "SHOW_ANSWER": "ANTWORT",
+    "YES": "JA",
+    "NO": "NEIN",
+    "INFO": "Infos:",
+    "WAS_IT_THE_CORRECT_ANSWER": "Habt ihr richtig geantwortet?",
+    "WAS_IT_THE_CORRECT_ANSWER_BEATYA": "Welche Mannschaft hat die Antwort gefunden?",
+    "FROM": "from",
+    "LOADING_POPUP": "Something went wrong, please restart the app.",
+    "LOADING_POPUP_CLOSING": "Closing in: "
+  },
+  "VERSION": "Ausführung:",
+  "HOME_PAGE": {
+    "MORE_VS_MORE": "Team vs Team",
+    "ONE_VS_ONE": "ΟΝΕ vs ΟΝΕ"
+  },
+  "PICK_TYPE_PAGE": {
+    "BEATYA_TYPE_CLICK": "Immer aktiv",
+    "OLNY_BEATYA": "You need to pick at least BeatYa! and another category!"
+  },
+  "PLAYER_1": "PLAYER 1",
+  "PLAYER_2": "PLAYER 2",
+  "PLAYER_NAME_INPUT_PLACEHOLDER": "Teamnamen ändern (optional)",
+  "RESULTS": "Ergebnisse",
+  "POPOVER_COMPONENT": {
+    "GIVE_FEED": "Give us your feedback",
+    "NAME": "Name",
+    "INFORMATION": "Description",
+    "SEND": "Send",
+    "BUG": "Report a bug",
+    "RESTART_GAME": "RESTART GAME"
+  },
+  "USER_OFFLINE_V2": "We detected you are offline. In this case question types memedia and BeatYa will be deactivated.",
+  "OFFLINE_WHILE_PLAYING_V2": "You have lost connection to the internet. Questions that contain visual or audio assets wont work properly."
+}
